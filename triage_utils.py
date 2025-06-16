@@ -30,7 +30,7 @@ def display_sar(sar):
 def red_flag_picker(sar):
     with st.expander("🚩 Select Red Flags You Observed"):
         with open("red_flags.json", "r", encoding="utf-8") as f:
-            red_flag_list = json.load(f)
+            red_flag_list = f.read().splitlines()
         selected = st.multiselect("Choose red flags:", red_flag_list, key=f"flags_{sar['report_id']}")
         st.session_state.red_flag_choices[sar['report_id']] = selected
 
