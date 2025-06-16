@@ -31,7 +31,6 @@ if "player_name" not in st.session_state:
             st.session_state.red_flag_choices = {}
             st.session_state.decisions = {}
             st.session_state.missed_flags = {}
-        st.experimental_rerun()
     st.stop()
 
 if "sars" not in st.session_state:
