@@ -1,4 +1,3 @@
-
 import streamlit as st
 import json
 import random
@@ -7,7 +6,6 @@ from session import init_session_state
 from triage_utils import display_sar, red_flag_picker, process_decision
 from certificate_utils import generate_certificate
 
-# Auth & setup
 PASSWORD = "GoAML4ever"
 init_session_state()
 st.set_page_config(page_title="AML Triage", layout="wide")
@@ -17,28 +15,28 @@ if not st.session_state.authenticated:
     pw = st.text_input("Enter password:", type="password")
     if st.button("Login") and pw == PASSWORD:
         st.session_state.authenticated = True
-        st.experimental_rerun()
     st.stop()
 
 # Officer name
 if "player_name" not in st.session_state:
     st.title("🕵️ Enter Your Officer Name")
     name = st.text_input("Enter your name to begin:")
-    if name:
+    if name and st.button("Start Simulation"):
         st.session_state.player_name = name
         st.session_state.start_time = time.time()
+        with open("enhanced_sars_20.json", "r", encoding="utf-8") as f:
+            all_sars = json.load(f)
+            st.session_state.sars = random.sample(all_sars, 5)
+            st.session_state.current_index = 0
+            st.session_state.red_flag_choices = {}
+            st.session_state.decisions = {}
+            st.session_state.missed_flags = {}
         st.experimental_rerun()
     st.stop()
 
-# Load SARs
 if "sars" not in st.session_state:
-    with open("enhanced_sars_20.json", "r", encoding="utf-8") as f:
-        all_sars = json.load(f)
-        st.session_state.sars = random.sample(all_sars, 5)
-        st.session_state.current_index = 0
-        st.session_state.red_flag_choices = {}
-        st.session_state.decisions = {}
-        st.session_state.missed_flags = {}
+    st.warning("Please enter your name to begin.")
+    st.stop()
 
 # Process SARs
 if st.session_state.current_index < len(st.session_state.sars):
