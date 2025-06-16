@@ -1,0 +1,1558 @@
+[
+  {
+    "report_id": "SAR-1000",
+    "reporter": "Novak, Miller and Willis Bank",
+    "subject": {
+      "full_name": "Maria Woods",
+      "date_of_birth": "1966-04-01",
+      "place_of_birth": "West Teresashire",
+      "nationality": "Djibouti",
+      "address": "01361 Williams Burgs Apt. 330, Port Shelby, MO 60832",
+      "id_number": "ID5809183",
+      "id_expiry": "2027-03-24",
+      "occupation": "Community development worker"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "Maria Woods",
+        "country": "Djibouti"
+      },
+      {
+        "type": "company",
+        "name": "Obrien Inc Ltd",
+        "country": "Serbia"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "Maria Woods",
+        "to": "Obrien Inc Ltd",
+        "amount": 132710.53,
+        "currency": "USD",
+        "date": "2025-04-15"
+      },
+      {
+        "from": "Maria Woods",
+        "to": "Obrien Inc Ltd",
+        "amount": 189907.83,
+        "currency": "CHF",
+        "date": "2024-08-06"
+      }
+    ],
+    "typology": "Subversion of bank compliance staff",
+    "background": "Spend officer state food land sometimes. Human authority security it thus agreement former. Style general name outside claim evidence former guess. Chair stock nation nor time a trade.",
+    "expected_action": "Forward to Law Enforcement",
+    "red_flags": [
+      "Layering via collective investment schemes",
+      "Unusual transaction pattern",
+      "Rapid succession of large transfers"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_0_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_0_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_0_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": false,
+    "additional_info_response": {
+      "status": "unavailable",
+      "message": "The reporting bank did not provide any additional information."
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1001",
+    "reporter": "Velez, Taylor and Fuller Bank",
+    "subject": {
+      "full_name": "Kimberly Lawrence",
+      "date_of_birth": "1992-02-29",
+      "place_of_birth": "New Sally",
+      "nationality": "Sweden",
+      "address": "9089 Mcdaniel Ford, East Jason, NV 75579",
+      "id_number": "ID2480196",
+      "id_expiry": "2027-02-13",
+      "occupation": "Curator"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "Kimberly Lawrence",
+        "country": "Sweden"
+      },
+      {
+        "type": "company",
+        "name": "Vincent and Sons Ltd",
+        "country": "Saint Vincent and the Grenadines"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "Kimberly Lawrence",
+        "to": "Vincent and Sons Ltd",
+        "amount": 28876.17,
+        "currency": "EUR",
+        "date": "2025-03-25"
+      },
+      {
+        "from": "Kimberly Lawrence",
+        "to": "Vincent and Sons Ltd",
+        "amount": 126361.1,
+        "currency": "CHF",
+        "date": "2024-10-15"
+      },
+      {
+        "from": "Kimberly Lawrence",
+        "to": "Vincent and Sons Ltd",
+        "amount": 106941.71,
+        "currency": "EUR",
+        "date": "2024-09-23"
+      }
+    ],
+    "typology": "Shell companies and nominee directors",
+    "background": "House thing painting late. Back member drive industry. Newspaper act sense rise toward ground military for. Writer change run law. Per individual former single whether white.",
+    "expected_action": "Close Case",
+    "red_flags": [
+      "Layering via collective investment schemes",
+      "Involvement of PEP"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_1_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_1_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_1_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": false,
+    "additional_info_response": {
+      "status": "available",
+      "details": "The fund's manager provided updated transaction logs showing related party payments."
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1002",
+    "reporter": "Figueroa, Booker and Silva Bank",
+    "subject": {
+      "full_name": "Patrick Simpson",
+      "date_of_birth": "1966-11-24",
+      "place_of_birth": "North Isaacstad",
+      "nationality": "Tajikistan",
+      "address": "91995 Perez Greens, Jameston, MO 73480",
+      "id_number": "ID9648453",
+      "id_expiry": "2027-10-24",
+      "occupation": "Proofreader"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "Patrick Simpson",
+        "country": "Tajikistan"
+      },
+      {
+        "type": "company",
+        "name": "Barrera, Cowan and Brown Ltd",
+        "country": "Mexico"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "Patrick Simpson",
+        "to": "Barrera, Cowan and Brown Ltd",
+        "amount": 123177.57,
+        "currency": "CHF",
+        "date": "2024-06-24"
+      },
+      {
+        "from": "Patrick Simpson",
+        "to": "Barrera, Cowan and Brown Ltd",
+        "amount": 47639.57,
+        "currency": "EUR",
+        "date": "2025-04-03"
+      }
+    ],
+    "typology": "Third-country IBAN misuse",
+    "background": "Between probably hospital war individual walk theory sister. Specific tree usually interview. Have before boy response true million start.",
+    "expected_action": "Forward to Law Enforcement",
+    "red_flags": [
+      "Transaction involves high-risk jurisdiction",
+      "Involvement of PEP"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_2_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_2_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_2_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": true,
+    "additional_info_response": {
+      "status": "available",
+      "details": "The fund's manager provided updated transaction logs showing related party payments."
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1003",
+    "reporter": "Wilson LLC Bank",
+    "subject": {
+      "full_name": "David Martinez",
+      "date_of_birth": "1987-09-11",
+      "place_of_birth": "Lake Claudiamouth",
+      "nationality": "French Southern Territories",
+      "address": "04460 Melissa Landing, Carolynberg, DC 20566",
+      "id_number": "ID9340777",
+      "id_expiry": "2027-01-11",
+      "occupation": "Engineer, drilling"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "David Martinez",
+        "country": "French Southern Territories"
+      },
+      {
+        "type": "company",
+        "name": "Salazar Inc Ltd",
+        "country": "Swaziland"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "David Martinez",
+        "to": "Salazar Inc Ltd",
+        "amount": 97517.34,
+        "currency": "USD",
+        "date": "2024-11-23"
+      },
+      {
+        "from": "David Martinez",
+        "to": "Salazar Inc Ltd",
+        "amount": 94130.91,
+        "currency": "CHF",
+        "date": "2025-03-24"
+      },
+      {
+        "from": "David Martinez",
+        "to": "Salazar Inc Ltd",
+        "amount": 43452.15,
+        "currency": "CHF",
+        "date": "2025-06-04"
+      },
+      {
+        "from": "David Martinez",
+        "to": "Salazar Inc Ltd",
+        "amount": 71581.44,
+        "currency": "USD",
+        "date": "2024-10-02"
+      }
+    ],
+    "typology": "Abuse of collective investment schemes",
+    "background": "Arm stage network heart physical. Decade middle stage focus majority. Accept thus career daughter this environment. Address will TV real cause child set peace.",
+    "expected_action": "Request More Info",
+    "red_flags": [
+      "Involvement of PEP",
+      "Cryptocurrency without clear source",
+      "Unusual transaction pattern"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_3_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_3_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_3_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": false,
+    "additional_info_response": {
+      "status": "available",
+      "details": "A second beneficiary was identified: Anne Williams"
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1004",
+    "reporter": "Chan-Morris Bank",
+    "subject": {
+      "full_name": "Vanessa Moore",
+      "date_of_birth": "1962-01-22",
+      "place_of_birth": "Port Manuelstad",
+      "nationality": "Brunei Darussalam",
+      "address": "3258 Christine Hollow Apt. 452, Kruegerchester, SC 23661",
+      "id_number": "ID2130542",
+      "id_expiry": "2030-04-05",
+      "occupation": "Soil scientist"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "Vanessa Moore",
+        "country": "Brunei Darussalam"
+      },
+      {
+        "type": "company",
+        "name": "Alvarez Group Ltd",
+        "country": "Brunei Darussalam"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "Vanessa Moore",
+        "to": "Alvarez Group Ltd",
+        "amount": 169567.67,
+        "currency": "USD",
+        "date": "2024-12-13"
+      },
+      {
+        "from": "Vanessa Moore",
+        "to": "Alvarez Group Ltd",
+        "amount": 53106.14,
+        "currency": "CHF",
+        "date": "2025-02-06"
+      },
+      {
+        "from": "Vanessa Moore",
+        "to": "Alvarez Group Ltd",
+        "amount": 123935.94,
+        "currency": "EUR",
+        "date": "2025-02-16"
+      },
+      {
+        "from": "Vanessa Moore",
+        "to": "Alvarez Group Ltd",
+        "amount": 172273.24,
+        "currency": "USD",
+        "date": "2024-07-30"
+      }
+    ],
+    "typology": "Back-to-back loans in private banking",
+    "background": "Common some box positive full option. End stuff role. First whose law traditional total.",
+    "expected_action": "Forward to Law Enforcement",
+    "red_flags": [
+      "Mismatch between source of funds and profile",
+      "Cryptocurrency without clear source"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_4_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_4_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_4_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": false,
+    "additional_info_response": {
+      "status": "available",
+      "details": "New KYC file submitted including an expired ID copy."
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1005",
+    "reporter": "Zavala and Sons Bank",
+    "subject": {
+      "full_name": "Kim Holmes",
+      "date_of_birth": "1977-02-24",
+      "place_of_birth": "Jamesville",
+      "nationality": "British Virgin Islands",
+      "address": "USNS Matthews, FPO AE 97555",
+      "id_number": "ID8412352",
+      "id_expiry": "2029-10-26",
+      "occupation": "Police officer"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "Kim Holmes",
+        "country": "British Virgin Islands"
+      },
+      {
+        "type": "company",
+        "name": "Sanders Inc Ltd",
+        "country": "Myanmar"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "Kim Holmes",
+        "to": "Sanders Inc Ltd",
+        "amount": 182214.23,
+        "currency": "CHF",
+        "date": "2024-10-02"
+      },
+      {
+        "from": "Kim Holmes",
+        "to": "Sanders Inc Ltd",
+        "amount": 114092.62,
+        "currency": "CHF",
+        "date": "2025-04-07"
+      },
+      {
+        "from": "Kim Holmes",
+        "to": "Sanders Inc Ltd",
+        "amount": 112429.55,
+        "currency": "CHF",
+        "date": "2025-04-04"
+      }
+    ],
+    "typology": "Insider trading in private banking",
+    "background": "Also require PM central between seek. Issue may someone far whether environmental question month. Green fill keep expert.",
+    "expected_action": "Forward to Law Enforcement",
+    "red_flags": [
+      "Cryptocurrency without clear source",
+      "Use of shell companies",
+      "Transaction involves high-risk jurisdiction"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_5_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_5_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_5_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": false,
+    "additional_info_response": {
+      "status": "available",
+      "details": "An internal memo flagged this client two months earlier for unusual crypto activity."
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1006",
+    "reporter": "Hansen-Ward Bank",
+    "subject": {
+      "full_name": "Danielle Gonzalez",
+      "date_of_birth": "1965-06-05",
+      "place_of_birth": "Billview",
+      "nationality": "United States of America",
+      "address": "6204 Joseph Hollow, Michaelville, SD 65410",
+      "id_number": "ID8827561",
+      "id_expiry": "2026-07-10",
+      "occupation": "Physicist, medical"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "Danielle Gonzalez",
+        "country": "United States of America"
+      },
+      {
+        "type": "company",
+        "name": "Cook, Lawrence and Li Ltd",
+        "country": "Guyana"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "Danielle Gonzalez",
+        "to": "Cook, Lawrence and Li Ltd",
+        "amount": 49325.68,
+        "currency": "EUR",
+        "date": "2025-03-04"
+      },
+      {
+        "from": "Danielle Gonzalez",
+        "to": "Cook, Lawrence and Li Ltd",
+        "amount": 37249.61,
+        "currency": "USD",
+        "date": "2024-10-06"
+      }
+    ],
+    "typology": "Sanctions evasion via complex structures",
+    "background": "Sort quality across house town. Century another region partner sing up prepare job. Management mention term nature door account. Leave season offer. Those talk attention else.",
+    "expected_action": "Close Case",
+    "red_flags": [
+      "Use of shell companies",
+      "Rapid succession of large transfers"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_6_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_6_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_6_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": true,
+    "additional_info_response": {
+      "status": "unavailable",
+      "message": "The institution declined to disclose further data at this stage."
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1007",
+    "reporter": "Dean Group Bank",
+    "subject": {
+      "full_name": "Julie Williams",
+      "date_of_birth": "1978-05-01",
+      "place_of_birth": "Ballberg",
+      "nationality": "Iraq",
+      "address": "3687 Randy Place Apt. 597, Bakerhaven, IA 72970",
+      "id_number": "ID8364636",
+      "id_expiry": "2029-06-20",
+      "occupation": "Software engineer"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "Julie Williams",
+        "country": "Iraq"
+      },
+      {
+        "type": "company",
+        "name": "Williams, Parks and Williams Ltd",
+        "country": "Afghanistan"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "Julie Williams",
+        "to": "Williams, Parks and Williams Ltd",
+        "amount": 190336.59,
+        "currency": "CHF",
+        "date": "2025-04-02"
+      },
+      {
+        "from": "Julie Williams",
+        "to": "Williams, Parks and Williams Ltd",
+        "amount": 55337.62,
+        "currency": "USD",
+        "date": "2024-12-07"
+      }
+    ],
+    "typology": "Shell companies and nominee directors",
+    "background": "Name break fly. Computer one recent. Mrs free six experience everybody. Night heavy push whose.",
+    "expected_action": "Forward to Law Enforcement",
+    "red_flags": [
+      "Cryptocurrency without clear source",
+      "Rapid succession of large transfers"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_7_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_7_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_7_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": false,
+    "additional_info_response": {
+      "status": "unavailable",
+      "message": "The fund manager stated that no further documentation is available."
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1008",
+    "reporter": "Olson PLC Bank",
+    "subject": {
+      "full_name": "Bianca Reynolds",
+      "date_of_birth": "1984-01-12",
+      "place_of_birth": "Johnmouth",
+      "nationality": "Kyrgyz Republic",
+      "address": "75225 Stacy Rue Suite 938, Port Jadehaven, AR 15489",
+      "id_number": "ID9501082",
+      "id_expiry": "2026-05-18",
+      "occupation": "Television/film/video producer"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "Bianca Reynolds",
+        "country": "Kyrgyz Republic"
+      },
+      {
+        "type": "company",
+        "name": "Gray Group Ltd",
+        "country": "Libyan Arab Jamahiriya"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "Bianca Reynolds",
+        "to": "Gray Group Ltd",
+        "amount": 160503.04,
+        "currency": "EUR",
+        "date": "2024-08-24"
+      },
+      {
+        "from": "Bianca Reynolds",
+        "to": "Gray Group Ltd",
+        "amount": 186957.96,
+        "currency": "EUR",
+        "date": "2024-11-29"
+      },
+      {
+        "from": "Bianca Reynolds",
+        "to": "Gray Group Ltd",
+        "amount": 55705.33,
+        "currency": "USD",
+        "date": "2024-09-06"
+      }
+    ],
+    "typology": "Unregistered capital raising in funds",
+    "background": "Agency guess sort Democrat itself bit. Can song say happen keep our. Head eight change take through. Development area common region husband real. Car offer collection same human scientist.",
+    "expected_action": "Forward to Law Enforcement",
+    "red_flags": [
+      "Layering via collective investment schemes",
+      "Unusual transaction pattern",
+      "Mismatch between source of funds and profile",
+      "Use of shell companies"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_8_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_8_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_8_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": false,
+    "additional_info_response": {
+      "status": "unavailable",
+      "message": "The institution declined to disclose further data at this stage."
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1009",
+    "reporter": "Taylor, Smith and Roberson Bank",
+    "subject": {
+      "full_name": "Julie Weaver",
+      "date_of_birth": "1958-10-12",
+      "place_of_birth": "North Kenneth",
+      "nationality": "French Southern Territories",
+      "address": "4128 Derek Neck Apt. 767, North Jesusmouth, UT 15809",
+      "id_number": "ID3056400",
+      "id_expiry": "2029-07-24",
+      "occupation": "Social researcher"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "Julie Weaver",
+        "country": "French Southern Territories"
+      },
+      {
+        "type": "company",
+        "name": "Woods Inc Ltd",
+        "country": "Saint Vincent and the Grenadines"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "Julie Weaver",
+        "to": "Woods Inc Ltd",
+        "amount": 191154.63,
+        "currency": "EUR",
+        "date": "2024-12-09"
+      },
+      {
+        "from": "Julie Weaver",
+        "to": "Woods Inc Ltd",
+        "amount": 68437.38,
+        "currency": "CHF",
+        "date": "2024-07-18"
+      },
+      {
+        "from": "Julie Weaver",
+        "to": "Woods Inc Ltd",
+        "amount": 96223.02,
+        "currency": "USD",
+        "date": "2025-01-21"
+      }
+    ],
+    "typology": "Back-to-back loans in private banking",
+    "background": "Most central boy east animal sort item. Work about at argue peace media. Computer begin work black. Perform blue dinner investment image he this. Seek past order feeling reduce simply economy.",
+    "expected_action": "Request More Info",
+    "red_flags": [
+      "Cryptocurrency without clear source",
+      "Mismatch between source of funds and profile",
+      "Unusual transaction pattern"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_9_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_9_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_9_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": true,
+    "additional_info_response": {
+      "status": "available",
+      "details": "New KYC file submitted including an expired ID copy."
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1010",
+    "reporter": "Sims Ltd Bank",
+    "subject": {
+      "full_name": "Charles Sheppard",
+      "date_of_birth": "1987-12-23",
+      "place_of_birth": "Stevenport",
+      "nationality": "Turkey",
+      "address": "83138 Johnson Estate, Fosterfort, FL 79500",
+      "id_number": "ID3743120",
+      "id_expiry": "2025-06-16",
+      "occupation": "Engineer, mining"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "Charles Sheppard",
+        "country": "Turkey"
+      },
+      {
+        "type": "company",
+        "name": "Jacobs, Berg and Foster Ltd",
+        "country": "Puerto Rico"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "Charles Sheppard",
+        "to": "Jacobs, Berg and Foster Ltd",
+        "amount": 73486.43,
+        "currency": "CHF",
+        "date": "2024-08-20"
+      },
+      {
+        "from": "Charles Sheppard",
+        "to": "Jacobs, Berg and Foster Ltd",
+        "amount": 38051.79,
+        "currency": "CHF",
+        "date": "2024-07-02"
+      }
+    ],
+    "typology": "Use of cryptocurrency for illicit flows",
+    "background": "Always point middle business above thing commercial. Wide method morning who claim local class. Southern together maintain ready. Film wrong form. Indeed agreement write seek whole paper from. Service my floor travel know.",
+    "expected_action": "Forward to Law Enforcement",
+    "red_flags": [
+      "Transaction involves high-risk jurisdiction",
+      "Unusual transaction pattern",
+      "Rapid succession of large transfers",
+      "Mismatch between source of funds and profile"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_10_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_10_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_10_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": false,
+    "additional_info_response": {
+      "status": "available",
+      "details": "A second beneficiary was identified: Christopher Anderson"
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1011",
+    "reporter": "Vance, Shaffer and Banks Bank",
+    "subject": {
+      "full_name": "Reginald Wright",
+      "date_of_birth": "1973-05-03",
+      "place_of_birth": "East Daniel",
+      "nationality": "India",
+      "address": "0629 Trevor Ports, Dennisberg, MA 15739",
+      "id_number": "ID1033416",
+      "id_expiry": "2026-11-06",
+      "occupation": "Air cabin crew"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "Reginald Wright",
+        "country": "India"
+      },
+      {
+        "type": "company",
+        "name": "Johnson-Anderson Ltd",
+        "country": "Antigua and Barbuda"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "Reginald Wright",
+        "to": "Johnson-Anderson Ltd",
+        "amount": 33084.52,
+        "currency": "CHF",
+        "date": "2024-10-18"
+      },
+      {
+        "from": "Reginald Wright",
+        "to": "Johnson-Anderson Ltd",
+        "amount": 122399.98,
+        "currency": "USD",
+        "date": "2025-02-12"
+      },
+      {
+        "from": "Reginald Wright",
+        "to": "Johnson-Anderson Ltd",
+        "amount": 153932.78,
+        "currency": "EUR",
+        "date": "2025-04-06"
+      },
+      {
+        "from": "Reginald Wright",
+        "to": "Johnson-Anderson Ltd",
+        "amount": 138897.04,
+        "currency": "CHF",
+        "date": "2024-06-30"
+      }
+    ],
+    "typology": "Insider trading in private banking",
+    "background": "Maybe huge responsibility direction after. Street ever write position really suggest others. Any amount visit.",
+    "expected_action": "Forward to Law Enforcement",
+    "red_flags": [
+      "Unusual transaction pattern",
+      "Cryptocurrency without clear source",
+      "Layering via collective investment schemes",
+      "Use of shell companies"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_11_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_11_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_11_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": false,
+    "additional_info_response": {
+      "status": "available",
+      "details": "The fund's manager provided updated transaction logs showing related party payments."
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1012",
+    "reporter": "Acosta-Strickland Bank",
+    "subject": {
+      "full_name": "John Wright",
+      "date_of_birth": "1987-12-03",
+      "place_of_birth": "Silvachester",
+      "nationality": "Greece",
+      "address": "USNV Larson, FPO AP 12940",
+      "id_number": "ID1324824",
+      "id_expiry": "2029-11-28",
+      "occupation": "Marketing executive"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "John Wright",
+        "country": "Greece"
+      },
+      {
+        "type": "company",
+        "name": "Brown Inc Ltd",
+        "country": "Saint Helena"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "John Wright",
+        "to": "Brown Inc Ltd",
+        "amount": 136608.67,
+        "currency": "EUR",
+        "date": "2025-02-04"
+      },
+      {
+        "from": "John Wright",
+        "to": "Brown Inc Ltd",
+        "amount": 181337.72,
+        "currency": "USD",
+        "date": "2025-01-01"
+      },
+      {
+        "from": "John Wright",
+        "to": "Brown Inc Ltd",
+        "amount": 128773.63,
+        "currency": "CHF",
+        "date": "2024-07-18"
+      }
+    ],
+    "typology": "Subversion of bank compliance staff",
+    "background": "Skin court strong win realize yeah seem ever. American knowledge could imagine. West cultural vote rock opportunity must. Past recent second director would.",
+    "expected_action": "Close Case",
+    "red_flags": [
+      "Cryptocurrency without clear source",
+      "Unusual transaction pattern"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_12_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_12_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_12_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": false,
+    "additional_info_response": {
+      "status": "available",
+      "details": "A second beneficiary was identified: Emily Munoz"
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1013",
+    "reporter": "Smith-Pierce Bank",
+    "subject": {
+      "full_name": "Amy Gonzales",
+      "date_of_birth": "1994-03-07",
+      "place_of_birth": "Lake Jamieshire",
+      "nationality": "Guadeloupe",
+      "address": "4007 Keith Streets, Cindyfurt, WY 76877",
+      "id_number": "ID7584332",
+      "id_expiry": "2025-08-30",
+      "occupation": "Web designer"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "Amy Gonzales",
+        "country": "Guadeloupe"
+      },
+      {
+        "type": "company",
+        "name": "Ray-Webb Ltd",
+        "country": "Norway"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "Amy Gonzales",
+        "to": "Ray-Webb Ltd",
+        "amount": 189568.45,
+        "currency": "USD",
+        "date": "2025-03-04"
+      },
+      {
+        "from": "Amy Gonzales",
+        "to": "Ray-Webb Ltd",
+        "amount": 19303.06,
+        "currency": "EUR",
+        "date": "2025-04-12"
+      },
+      {
+        "from": "Amy Gonzales",
+        "to": "Ray-Webb Ltd",
+        "amount": 176560.98,
+        "currency": "USD",
+        "date": "2024-10-18"
+      }
+    ],
+    "typology": "Fund layering through AIF structures",
+    "background": "Ever if economy blue. Military affect perform federal fly. For enter kitchen respond enter.",
+    "expected_action": "Forward to Law Enforcement",
+    "red_flags": [
+      "Involvement of PEP",
+      "Layering via collective investment schemes"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_13_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_13_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_13_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": false,
+    "additional_info_response": {
+      "status": "available",
+      "details": "The fund's manager provided updated transaction logs showing related party payments."
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1014",
+    "reporter": "Park, Johnson and Rose Bank",
+    "subject": {
+      "full_name": "Lawrence Burnett",
+      "date_of_birth": "1959-05-19",
+      "place_of_birth": "Dawnfurt",
+      "nationality": "Turkmenistan",
+      "address": "PSC 7507, Box 4919, APO AE 69690",
+      "id_number": "ID9795908",
+      "id_expiry": "2026-04-17",
+      "occupation": "Make"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "Lawrence Burnett",
+        "country": "Turkmenistan"
+      },
+      {
+        "type": "company",
+        "name": "Watson, Long and Alexander Ltd",
+        "country": "Iceland"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "Lawrence Burnett",
+        "to": "Watson, Long and Alexander Ltd",
+        "amount": 146264.64,
+        "currency": "CHF",
+        "date": "2025-02-13"
+      },
+      {
+        "from": "Lawrence Burnett",
+        "to": "Watson, Long and Alexander Ltd",
+        "amount": 15220.13,
+        "currency": "EUR",
+        "date": "2024-09-13"
+      },
+      {
+        "from": "Lawrence Burnett",
+        "to": "Watson, Long and Alexander Ltd",
+        "amount": 113523.23,
+        "currency": "USD",
+        "date": "2025-03-04"
+      }
+    ],
+    "typology": "Use of luxury real estate to launder funds",
+    "background": "Impact parent learn high. Writer all record against beat budget party despite. Decision real television then part. Heavy box town what parent notice.",
+    "expected_action": "Close Case",
+    "red_flags": [
+      "Cryptocurrency without clear source",
+      "Mismatch between source of funds and profile"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_14_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_14_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_14_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": false,
+    "additional_info_response": {
+      "status": "unavailable",
+      "message": "The institution declined to disclose further data at this stage."
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1015",
+    "reporter": "Richard, Austin and Taylor Bank",
+    "subject": {
+      "full_name": "Gabriella Klein",
+      "date_of_birth": "1980-06-28",
+      "place_of_birth": "Port Kenneth",
+      "nationality": "Costa Rica",
+      "address": "769 Jackie Spring Suite 494, Garciamouth, KY 38040",
+      "id_number": "ID5329185",
+      "id_expiry": "2028-05-05",
+      "occupation": "Charity fundraiser"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "Gabriella Klein",
+        "country": "Costa Rica"
+      },
+      {
+        "type": "company",
+        "name": "Ramirez Group Ltd",
+        "country": "Germany"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "Gabriella Klein",
+        "to": "Ramirez Group Ltd",
+        "amount": 128616.81,
+        "currency": "USD",
+        "date": "2024-07-17"
+      },
+      {
+        "from": "Gabriella Klein",
+        "to": "Ramirez Group Ltd",
+        "amount": 66469.41,
+        "currency": "USD",
+        "date": "2025-02-28"
+      },
+      {
+        "from": "Gabriella Klein",
+        "to": "Ramirez Group Ltd",
+        "amount": 18668.7,
+        "currency": "CHF",
+        "date": "2024-09-15"
+      },
+      {
+        "from": "Gabriella Klein",
+        "to": "Ramirez Group Ltd",
+        "amount": 11264.28,
+        "currency": "CHF",
+        "date": "2025-01-02"
+      }
+    ],
+    "typology": "Insider trading in private banking",
+    "background": "Kid magazine throw. Industry require idea important trouble box claim education. Life however air a health heart east. Decide store act just street. Product yourself night some image economy. Sport relationship seem piece analysis.",
+    "expected_action": "Forward to Law Enforcement",
+    "red_flags": [
+      "Involvement of PEP",
+      "Unusual transaction pattern",
+      "Transaction involves high-risk jurisdiction",
+      "Mismatch between source of funds and profile"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_15_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_15_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_15_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": false,
+    "additional_info_response": {
+      "status": "available",
+      "details": "New KYC file submitted including an expired ID copy."
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1016",
+    "reporter": "Lopez Inc Bank",
+    "subject": {
+      "full_name": "James Hill",
+      "date_of_birth": "1958-05-02",
+      "place_of_birth": "Port Lauraville",
+      "nationality": "South Africa",
+      "address": "7242 Butler Mountains Suite 152, Hernandezburgh, OK 25929",
+      "id_number": "ID7949619",
+      "id_expiry": "2025-06-26",
+      "occupation": "Presenter, broadcasting"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "James Hill",
+        "country": "South Africa"
+      },
+      {
+        "type": "company",
+        "name": "Ross, Mata and Roy Ltd",
+        "country": "Solomon Islands"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "James Hill",
+        "to": "Ross, Mata and Roy Ltd",
+        "amount": 126376.15,
+        "currency": "EUR",
+        "date": "2024-11-21"
+      },
+      {
+        "from": "James Hill",
+        "to": "Ross, Mata and Roy Ltd",
+        "amount": 60350.17,
+        "currency": "CHF",
+        "date": "2025-04-24"
+      }
+    ],
+    "typology": "VAT carousel fraud",
+    "background": "Whose hear national exist join. Machine good instead laugh feel door pick use. Adult environment dog throughout such music born role. Realize leader write gas. Matter conference director analysis environmental main leg.",
+    "expected_action": "Forward to Law Enforcement",
+    "red_flags": [
+      "Rapid succession of large transfers",
+      "Transaction involves high-risk jurisdiction",
+      "Involvement of PEP"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_16_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_16_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_16_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": true,
+    "additional_info_response": {
+      "status": "available",
+      "details": "A second beneficiary was identified: Jeffrey Simpson"
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1017",
+    "reporter": "Mcbride Ltd Bank",
+    "subject": {
+      "full_name": "Richard Jones",
+      "date_of_birth": "1971-12-28",
+      "place_of_birth": "East Tony",
+      "nationality": "Seychelles",
+      "address": "1477 Michelle Shoals Suite 792, Walkerfort, AK 68471",
+      "id_number": "ID6137836",
+      "id_expiry": "2026-11-16",
+      "occupation": "Cabin crew"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "Richard Jones",
+        "country": "Seychelles"
+      },
+      {
+        "type": "company",
+        "name": "Jones Group Ltd",
+        "country": "Somalia"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "Richard Jones",
+        "to": "Jones Group Ltd",
+        "amount": 183325.15,
+        "currency": "EUR",
+        "date": "2024-11-22"
+      },
+      {
+        "from": "Richard Jones",
+        "to": "Jones Group Ltd",
+        "amount": 32623.37,
+        "currency": "USD",
+        "date": "2025-05-17"
+      },
+      {
+        "from": "Richard Jones",
+        "to": "Jones Group Ltd",
+        "amount": 166351.46,
+        "currency": "EUR",
+        "date": "2025-05-04"
+      },
+      {
+        "from": "Richard Jones",
+        "to": "Jones Group Ltd",
+        "amount": 20909.55,
+        "currency": "CHF",
+        "date": "2024-06-18"
+      }
+    ],
+    "typology": "Use of fake employment contracts",
+    "background": "Let mission three fight hair over while. And road scene upon conference. Trouble maintain picture figure if country pattern against. Indeed care oil land just sea officer. Reason any kitchen.",
+    "expected_action": "Request More Info",
+    "red_flags": [
+      "Layering via collective investment schemes",
+      "Transaction involves high-risk jurisdiction",
+      "Unusual transaction pattern"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_17_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_17_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_17_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": true,
+    "additional_info_response": {
+      "status": "unavailable",
+      "message": "The institution declined to disclose further data at this stage."
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1018",
+    "reporter": "Bowman-Williams Bank",
+    "subject": {
+      "full_name": "Jason Hensley",
+      "date_of_birth": "1983-09-17",
+      "place_of_birth": "East Kaylaborough",
+      "nationality": "Cameroon",
+      "address": "63761 Hudson Avenue Suite 769, West Lisabury, NV 37117",
+      "id_number": "ID2996246",
+      "id_expiry": "2026-04-28",
+      "occupation": "Newspaper journalist"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "Jason Hensley",
+        "country": "Cameroon"
+      },
+      {
+        "type": "company",
+        "name": "Smith, Hayes and Wright Ltd",
+        "country": "Croatia"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "Jason Hensley",
+        "to": "Smith, Hayes and Wright Ltd",
+        "amount": 11153.23,
+        "currency": "USD",
+        "date": "2024-12-23"
+      },
+      {
+        "from": "Jason Hensley",
+        "to": "Smith, Hayes and Wright Ltd",
+        "amount": 35810.43,
+        "currency": "EUR",
+        "date": "2024-08-28"
+      },
+      {
+        "from": "Jason Hensley",
+        "to": "Smith, Hayes and Wright Ltd",
+        "amount": 76807.35,
+        "currency": "EUR",
+        "date": "2024-10-20"
+      }
+    ],
+    "typology": "PEP corruption and wire transfers",
+    "background": "Stock little enough start push evidence effort. Yeah go which save bag. Few much ball explain building training price but.",
+    "expected_action": "Forward to Law Enforcement",
+    "red_flags": [
+      "Unusual transaction pattern",
+      "Transaction involves high-risk jurisdiction",
+      "Rapid succession of large transfers",
+      "Involvement of PEP"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_18_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_18_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_18_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": true,
+    "additional_info_response": {
+      "status": "unavailable",
+      "message": "The fund manager stated that no further documentation is available."
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  },
+  {
+    "report_id": "SAR-1019",
+    "reporter": "Johnson-Schmidt Bank",
+    "subject": {
+      "full_name": "Leslie Snyder",
+      "date_of_birth": "1955-11-09",
+      "place_of_birth": "Powellfort",
+      "nationality": "Bolivia",
+      "address": "333 Joseph Creek, Ericstad, NH 66390",
+      "id_number": "ID8198965",
+      "id_expiry": "2025-10-02",
+      "occupation": "Administrator, sports"
+    },
+    "entities": [
+      {
+        "type": "individual",
+        "name": "Leslie Snyder",
+        "country": "Bolivia"
+      },
+      {
+        "type": "company",
+        "name": "Sandoval Inc Ltd",
+        "country": "Mayotte"
+      }
+    ],
+    "transactions": [
+      {
+        "from": "Leslie Snyder",
+        "to": "Sandoval Inc Ltd",
+        "amount": 121071.0,
+        "currency": "EUR",
+        "date": "2024-08-30"
+      },
+      {
+        "from": "Leslie Snyder",
+        "to": "Sandoval Inc Ltd",
+        "amount": 28226.02,
+        "currency": "EUR",
+        "date": "2025-01-03"
+      },
+      {
+        "from": "Leslie Snyder",
+        "to": "Sandoval Inc Ltd",
+        "amount": 48679.18,
+        "currency": "CHF",
+        "date": "2024-08-08"
+      },
+      {
+        "from": "Leslie Snyder",
+        "to": "Sandoval Inc Ltd",
+        "amount": 195579.91,
+        "currency": "EUR",
+        "date": "2024-09-30"
+      }
+    ],
+    "typology": "Phantom donations to cover laundering",
+    "background": "Drive despite note listen high maintain. Administration clearly hard decade experience everything issue also. Establish determine office choose authority same. Parent part old professional. Ready dream as edge improve car smile. Behavior to work case cause attorney voice moment.",
+    "expected_action": "Request More Info",
+    "red_flags": [
+      "Cryptocurrency without clear source",
+      "Transaction involves high-risk jurisdiction"
+    ],
+    "documents": [
+      {
+        "name": "KYC File",
+        "url": "/docs/sar_19_kyc"
+      },
+      {
+        "name": "Transaction Log",
+        "url": "/docs/sar_19_txn"
+      },
+      {
+        "name": "Additional Info",
+        "url": "/docs/sar_19_add",
+        "hidden": true
+      }
+    ],
+    "incomplete": false,
+    "additional_info_response": {
+      "status": "unavailable",
+      "message": "The institution declined to disclose further data at this stage."
+    },
+    "disclaimer": "All names and amounts are fictitious. Typology is based on real FIU case studies."
+  }
+]
