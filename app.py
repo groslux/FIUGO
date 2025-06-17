@@ -27,10 +27,10 @@ if not st.session_state.player_name:
         st.session_state.start_time = time.time()
     st.stop()
 
-# --- Introduction ---
+# --- Introduction Page ---
 if "started" not in st.session_state:
     st.title("🔎 Suspicious Activity Triage - FIU Simulation")
-    
+
     try:
         with open("counter.txt", "r") as f:
             count = int(f.read().strip())
@@ -63,20 +63,19 @@ At the end, you’ll receive a PDF Certificate with your results.
 
 Good luck, officer!
 """)
+
     if st.button("▶️ Start Simulation"):
         st.session_state.started = True
+        with open("enhanced_sars_25.json", "r", encoding="utf-8") as f:
+            all_sars = json.load(f)
+        st.session_state.sars = random.sample(all_sars, 5)
+        st.session_state.current_index = 0
+        st.session_state.red_flag_choices = {}
+        st.session_state.decisions = {}
+        st.session_state.missed_flags = {}
+        st.session_state.additional_info_revealed = False
+        st.experimental_rerun()
     st.stop()
-
-# --- Load SARs and Start Game ---
-if "sars" not in st.session_state:
-    with open("enhanced_sars_25.json", "r", encoding="utf-8") as f:
-        all_sars = json.load(f)
-    st.session_state.sars = random.sample(all_sars, 5)
-    st.session_state.current_index = 0
-    st.session_state.red_flag_choices = {}
-    st.session_state.decisions = {}
-    st.session_state.missed_flags = {}
-    st.session_state.additional_info_revealed = False
 
 # --- Game Loop ---
 if st.session_state.current_index < len(st.session_state.sars):
