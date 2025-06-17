@@ -1,0 +1,898 @@
+[
+    {
+        "id": "SAR-LU-2023-072",
+        "submission_date": "2023-10-19",
+        "reporting_entity": "Prime Crypto Custody S.A. \u2013 Luxembourg",
+        "contact_id": "MLRO-PCC-0723",
+        "subjects": [
+            {
+                "type": "Individual",
+                "name": "Yusef Djamal",
+                "dob": "1989-03-02",
+                "pob": "Hamburg, Germany",
+                "nationality": "German",
+                "passport": "DE8392012",
+                "passport_expiry": "2028",
+                "occupation": "Logistics Consultant"
+            }
+        ],
+        "transactions": [
+            {
+                "date": "2023-10-01",
+                "type": "Incoming SEPA",
+                "amount": 9000,
+                "currency": "EUR",
+                "origin": "Lithuania"
+            },
+            {
+                "date": "2023-10-05",
+                "type": "Conversion",
+                "amount": 9000,
+                "currency": "XMR",
+                "destination": "Unknown Wallet"
+            }
+        ],
+        "background": "The client recently opened an account and began receiving repeated SEPA transfers from Lithuanian sources with different payment references. Funds were quickly converted to Monero, which is privacy-focused. Wallets show high obfuscation behavior. Client refused to elaborate on relationship with Lithuanian entities.",
+        "additional_info_request": "Requested",
+        "additional_info_response": "Business confidentiality, no additional documents provided.",
+        "internal_ref": "PCC-YDJAML-1023",
+        "expected_decision": [
+            "Forward to Law Enforcement"
+        ],
+        "dissemination_country": null,
+        "red_flags": [
+            "Use of privacy coins",
+            "Third-party funding",
+            "High obfuscation",
+            "No business justification"
+        ]
+    },
+    {
+        "id": "SAR-FR-2022-037",
+        "submission_date": "2022-11-10",
+        "reporting_entity": "Banque Occitane du Sud \u2013 Toulouse",
+        "contact_id": "AML-SUD-BOCCTLS",
+        "subjects": [
+            {
+                "type": "Individual",
+                "name": "C\u00e9line Dubois",
+                "dob": "1985-07-14",
+                "pob": "Bordeaux, France",
+                "nationality": "French",
+                "occupation": "Freelance Graphic Designer"
+            }
+        ],
+        "transactions": [
+            {
+                "date": "2022-08-15",
+                "type": "Transfer",
+                "amount": 300,
+                "currency": "EUR",
+                "destination": "Crowdfunding - Germany"
+            },
+            {
+                "date": "2022-09-10",
+                "type": "Transfer",
+                "amount": 350,
+                "currency": "EUR",
+                "destination": "Crowdfunding - Germany"
+            }
+        ],
+        "background": "The bank noted transfers to a new crowdfunding platform hosted in Germany. One campaign was initiated by someone sharing the exact name of a known individual on the UN Al-Qaeda Sanctions List. Client claimed she donated for humanitarian purposes and was unaware of any link.",
+        "additional_info_request": "Requested",
+        "additional_info_response": "Client insists on good faith, unaware of organizer\u2019s identity.",
+        "internal_ref": "BOS-DUBOIS-CF22",
+        "expected_decision": [
+            "Forward to Law Enforcement"
+        ],
+        "dissemination_country": null,
+        "red_flags": [
+            "Crowdfunding"
+        ]
+    }
+] [
+  {
+    "id": "SAR-LU-2023-001",
+    "submission_date": "2023-06-18",
+    "reporting_entity": "Société Générale Bank & Trust – Luxembourg",
+    "contact_id": "MLRO-SGBT-LU001",
+    "subjects": [
+      {
+        "type": "Individual",
+        "name": "Sofia Ramirez",
+        "dob": "1983-02-15",
+        "pob": "Madrid, Spain",
+        "nationality": "Spanish",
+        "passport": "ES339211",
+        "passport_expiry": "2028",
+        "occupation": "Consultant"
+      }
+    ],
+    "transactions": [
+      {"date": "2023-05-10", "type": "Transfer", "amount": 50000, "currency": "EUR", "origin": "Andorra"},
+      {"date": "2023-05-15", "type": "Transfer", "amount": 47000, "currency": "EUR", "destination": "Spain"}
+    ],
+    "background": "The client received two high-value incoming transfers from Andorra and redirected most of the funds to a personal account in Spain. The client declared the origin as inheritance but failed to provide notarized documentation.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "Only scanned letter without legal value provided.",
+    "internal_ref": "SGBT-SRAM-23",
+    "expected_decision": ["Forward to Law Enforcement"],
+    "dissemination_country": null,
+    "red_flags": [
+      "Unjustified international transfers",
+      "Lack of supporting documentation"
+    ]
+  },
+  {
+    "id": "SAR-LU-2023-002",
+    "submission_date": "2023-08-22",
+    "reporting_entity": "Finvault Crypto S.A. – Luxembourg",
+    "contact_id": "MLRO-FVLT-002",
+    "subjects": [
+      {
+        "type": "Individual",
+        "name": "Mohammad Amini",
+        "dob": "1991-11-05",
+        "pob": "Tehran, Iran",
+        "nationality": "Iranian",
+        "passport": "IR339822",
+        "passport_expiry": "2026",
+        "occupation": "Engineer"
+      }
+    ],
+    "transactions": [
+      {"date": "2023-07-10", "type": "Deposit", "amount": 12000, "currency": "USDT", "origin": "Turkey"},
+      {"date": "2023-07-11", "type": "Conversion", "amount": 12000, "currency": "XMR", "destination": "Privacy Wallet"}
+    ],
+    "background": "The user deposited crypto through a Turkish platform and instantly converted to Monero. KYC declared him as an engineer residing in Luxembourg, but logs show frequent access from Istanbul. Crypto tracing indicates connections to dark web mixer.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "No response from client after 3 attempts.",
+    "internal_ref": "FVLT-AMINI-23",
+    "expected_decision": ["Forward to Law Enforcement", "Dissemination Abroad"],
+    "dissemination_country": "Turkey",
+    "red_flags": [
+      "Use of privacy coins",
+      "IP access from foreign jurisdiction",
+      "Dark web mixing",
+      "Crypto transaction obfuscation"
+    ]
+  },
+  {
+    "id": "SAR-LU-2023-003",
+    "submission_date": "2023-05-12",
+    "reporting_entity": "AssetBridge Fund Services – Luxembourg",
+    "contact_id": "MLRO-ABF-003",
+    "subjects": [
+      {
+        "type": "Entity",
+        "name": "Valmont Holdings Ltd",
+        "incorporation_country": "British Virgin Islands",
+        "representative": "Anna Voronina",
+        "dob": "1980-10-11",
+        "nationality": "Ukrainian",
+        "passport": "UA558812",
+        "passport_expiry": "2029"
+      }
+    ],
+    "transactions": [
+      {"date": "2023-03-20", "type": "Subscription", "amount": 800000, "currency": "EUR", "origin": "Cyprus"},
+      {"date": "2023-04-05", "type": "Redemption", "amount": 850000, "currency": "EUR", "destination": "Latvia"}
+    ],
+    "background": "Entity subscribed and quickly redeemed fund units via a nominee company in Cyprus. Beneficiary of redemption is a third-party in Latvia not declared during onboarding. KYC documentation was minimal and expired.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "Management Company confirms beneficial owner unreachable.",
+    "internal_ref": "ABF-VAL-23",
+    "expected_decision": ["Forward to Law Enforcement"],
+    "dissemination_country": null,
+    "red_flags": [
+      "Short holding period",
+      "Third-party redemption",
+      "Offshore nominee",
+      "Expired KYC documents"
+    ]
+  },
+  {
+    "id": "SAR-LU-2023-004",
+    "submission_date": "2023-04-14",
+    "reporting_entity": "Tradex Wealth – Luxembourg",
+    "contact_id": "MLRO-TWX-004",
+    "subjects": [
+      {
+        "type": "Individual",
+        "name": "Isabelle Klein",
+        "dob": "1978-01-03",
+        "pob": "Luxembourg",
+        "nationality": "Luxembourgish",
+        "passport": "LX221034",
+        "passport_expiry": "2027",
+        "occupation": "Pharmacist"
+      }
+    ],
+    "transactions": [
+      {"date": "2023-04-01", "type": "Transfer", "amount": 7500, "currency": "EUR", "origin": "Own salary account"},
+      {"date": "2023-04-03", "type": "Purchase", "amount": 7100, "currency": "EUR", "destination": "Jewelry shop"}
+    ],
+    "background": "SAR filed automatically after system alert of large purchase flagged as luxury spending. However, client provided invoice and declared intent to resell vintage jewelry on legal platform. Client relationship unchanged for 15 years.",
+    "additional_info_request": "Not requested",
+    "additional_info_response": "N/A",
+    "internal_ref": "TWX-KLEIN-23",
+    "expected_decision": ["Close Case"],
+    "dissemination_country": null,
+    "red_flags": []
+  },
+  {
+    "id": "SAR-LU-2023-005",
+    "submission_date": "2023-03-01",
+    "reporting_entity": "TrustBank Private – Luxembourg",
+    "contact_id": "MLRO-TBPRV-005",
+    "subjects": [
+      {
+        "type": "Entity",
+        "name": "Gibraltar Holdings S.C.",
+        "incorporation_country": "Gibraltar",
+        "representative": "Luis Ortega",
+        "dob": "1969-12-30",
+        "nationality": "Spanish",
+        "passport": "ES775392",
+        "passport_expiry": "2029"
+      }
+    ],
+    "transactions": [
+      {"date": "2023-01-20", "type": "Incoming Wire", "amount": 1_000_000, "currency": "EUR", "origin": "Belize"},
+      {"date": "2023-01-22", "type": "Transfer", "amount": 950_000, "currency": "EUR", "destination": "Latvia"}
+    ],
+    "background": "SAR triggered after internal audit revealed high-risk structure involving Gibraltar, Belize, and Latvian banks. KYC declared the company as 'real estate holding', but no business proof ever submitted. Beneficiary accounts are layered.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "Fund Manager reports structure not compliant with FATF-recommended practices.",
+    "internal_ref": "TBPRV-GIBHLD-23",
+    "expected_decision": ["Forward to Law Enforcement", "Dissemination Abroad"],
+    "dissemination_country": "Gibraltar",
+    "red_flags": [
+      "Offshore layering",
+      "No declared economic activity",
+      "High-risk jurisdictions",
+      "Unverifiable UBO"
+    ]
+  }
+] [
+  {
+    "id": "SAR-LU-2023-006",
+    "submission_date": "2023-02-14",
+    "reporting_entity": "LuxCapital Management S.A.",
+    "contact_id": "MLRO-LUXCAP-006",
+    "subjects": [
+      {
+        "type": "Entity",
+        "name": "Emerald Investment Fund",
+        "incorporation_country": "Luxembourg",
+        "representative": "David Leclerc",
+        "dob": "1975-04-09",
+        "nationality": "Belgian",
+        "passport": "BE9012883",
+        "passport_expiry": "2030"
+      }
+    ],
+    "transactions": [
+      {"date": "2022-12-10", "type": "Subscription", "amount": 250000, "currency": "USD", "origin": "Cayman Islands"},
+      {"date": "2023-01-05", "type": "Redemption", "amount": 248000, "currency": "USD", "destination": "Bahamas"}
+    ],
+    "background": "The fund received investment from a Cayman trust and quickly redeemed the units to a third-party account in the Bahamas. Investor KYC lacked proof of source of wealth. Third-party redemptions are prohibited under fund policy.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "Management claims redemption processed in error; account already closed.",
+    "internal_ref": "LCAP-EMRLD-23",
+    "expected_decision": ["Forward to Law Enforcement"],
+    "dissemination_country": null,
+    "red_flags": [
+      "Third-party redemption",
+      "Prohibited fund activity",
+      "Cayman-Bahamas routing",
+      "Missing source of wealth"
+    ]
+  },
+  {
+    "id": "SAR-LU-2023-007",
+    "submission_date": "2023-01-11",
+    "reporting_entity": "Banca Europea – Luxembourg Branch",
+    "contact_id": "MLRO-BELUX-007",
+    "subjects": [
+      {
+        "type": "Individual",
+        "name": "Raoul Bianci",
+        "dob": "1990-06-12",
+        "pob": "Naples, Italy",
+        "nationality": "Italian",
+        "passport": "IT3939902",
+        "passport_expiry": "2029",
+        "occupation": "Car Dealer"
+      }
+    ],
+    "transactions": [
+      {"date": "2022-12-15", "type": "Cash Deposit", "amount": 9500, "currency": "EUR", "origin": "Luxembourg"},
+      {"date": "2022-12-20", "type": "Cash Deposit", "amount": 9700, "currency": "EUR", "origin": "Luxembourg"},
+      {"date": "2022-12-22", "type": "Transfer", "amount": 18000, "currency": "EUR", "destination": "Italy"}
+    ],
+    "background": "Frequent cash deposits below EUR 10,000 within short intervals. Customer states funds come from used car sales but provided no invoices or proof of business activity.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "Client insists business is cash-based and unregistered.",
+    "internal_ref": "BELUX-RBIANCI-23",
+    "expected_decision": ["Forward to Law Enforcement"],
+    "dissemination_country": null,
+    "red_flags": [
+      "Structuring",
+      "Unregistered business",
+      "Lack of documentation"
+    ]
+  },
+  {
+    "id": "SAR-LU-2023-008",
+    "submission_date": "2023-09-30",
+    "reporting_entity": "Global Capital Markets (Lux) S.A.",
+    "contact_id": "MLRO-GCM-008",
+    "subjects": [
+      {
+        "type": "Individual",
+        "name": "Fiona Müller",
+        "dob": "1986-12-23",
+        "pob": "Zurich, Switzerland",
+        "nationality": "Swiss",
+        "passport": "CH224558",
+        "passport_expiry": "2032",
+        "occupation": "Hedge Fund Analyst"
+      }
+    ],
+    "transactions": [],
+    "background": "Client was flagged during a periodic screening due to a partial name match with a person sanctioned under a UN travel ban. Date of birth differed by five years. No actual transactions occurred since onboarding. SAR submitted for precaution.",
+    "additional_info_request": "Not applicable",
+    "additional_info_response": "N/A",
+    "internal_ref": "GCM-MULLER-23",
+    "expected_decision": ["Close Case"],
+    "dissemination_country": null,
+    "red_flags": []
+  },
+  {
+    "id": "SAR-LU-2023-009",
+    "submission_date": "2023-07-14",
+    "reporting_entity": "TrustBank Private – Luxembourg",
+    "contact_id": "MLRO-TBPRV-009",
+    "subjects": [
+      {
+        "type": "Individual",
+        "name": "Fatimah Al-Sabah",
+        "dob": "1973-05-30",
+        "pob": "Kuwait City, Kuwait",
+        "nationality": "Kuwaiti",
+        "passport": "KW884421",
+        "passport_expiry": "2027",
+        "occupation": "Oil Sector Executive"
+      }
+    ],
+    "transactions": [
+      {"date": "2023-06-20", "type": "Wire Transfer", "amount": 650000, "currency": "USD", "destination": "UAE"},
+      {"date": "2023-06-28", "type": "Wire Transfer", "amount": 700000, "currency": "USD", "destination": "UAE"}
+    ],
+    "background": "Transfers to a UAE holding company associated with controversial oil infrastructure deals. Client claims commercial property investments, but no contracts or proof of beneficial ownership provided. UAE company is recently incorporated.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "Client refers to confidentiality clauses, declines to provide.",
+    "internal_ref": "TBPRV-FALSBH-23",
+    "expected_decision": ["Dissemination Abroad"],
+    "dissemination_country": "United Arab Emirates",
+    "red_flags": [
+      "Large international transfers",
+      "Use of new shell entity",
+      "Opaque structure",
+      "High-risk jurisdiction"
+    ]
+  },
+  {
+    "id": "SAR-LU-2023-010",
+    "submission_date": "2023-03-07",
+    "reporting_entity": "LuxTrade Platform S.A.",
+    "contact_id": "MLRO-LUXT-010",
+    "subjects": [
+      {
+        "type": "Individual",
+        "name": "Kevin Mendis",
+        "dob": "1993-09-14",
+        "pob": "Colombo, Sri Lanka",
+        "nationality": "Sri Lankan",
+        "passport": "LK4488012",
+        "passport_expiry": "2026",
+        "occupation": "Freelancer"
+      }
+    ],
+    "transactions": [
+      {"date": "2023-02-12", "type": "Crypto In", "amount": 15000, "currency": "USDT", "origin": "India"},
+      {"date": "2023-02-13", "type": "Crypto Out", "amount": 14800, "currency": "BTC", "destination": "Unknown Wallet"}
+    ],
+    "background": "Client created an account and performed immediate crypto conversions to an external BTC address flagged on Chainalysis. Claimed earnings from online gigs in India, but IP logs show mixed geolocation.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "User did not respond.",
+    "internal_ref": "LUXT-MENDIS-23",
+    "expected_decision": ["Forward to Law Enforcement"],
+    "dissemination_country": null,
+    "red_flags": [
+      "Crypto to flagged wallet",
+      "No business justification",
+      "Inconsistent geolocation"
+    ]
+  }
+]
+[
+  {
+    "id": "SAR-LU-2023-006",
+    "submission_date": "2023-02-14",
+    "reporting_entity": "LuxCapital Management S.A.",
+    "contact_id": "MLRO-LUXCAP-006",
+    "subjects": [
+      {
+        "type": "Entity",
+        "name": "Emerald Investment Fund",
+        "incorporation_country": "Luxembourg",
+        "representative": "David Leclerc",
+        "dob": "1975-04-09",
+        "nationality": "Belgian",
+        "passport": "BE9012883",
+        "passport_expiry": "2030"
+      }
+    ],
+    "transactions": [
+      {"date": "2022-12-10", "type": "Subscription", "amount": 250000, "currency": "USD", "origin": "Cayman Islands"},
+      {"date": "2023-01-05", "type": "Redemption", "amount": 248000, "currency": "USD", "destination": "Bahamas"}
+    ],
+    "background": "The fund received investment from a Cayman trust and quickly redeemed the units to a third-party account in the Bahamas. Investor KYC lacked proof of source of wealth. Third-party redemptions are prohibited under fund policy.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "Management claims redemption processed in error; account already closed.",
+    "internal_ref": "LCAP-EMRLD-23",
+    "expected_decision": ["Forward to Law Enforcement"],
+    "dissemination_country": null,
+    "red_flags": [
+      "Third-party redemption",
+      "Prohibited fund activity",
+      "Cayman-Bahamas routing",
+      "Missing source of wealth"
+    ]
+  },
+  {
+    "id": "SAR-LU-2023-007",
+    "submission_date": "2023-01-11",
+    "reporting_entity": "Banca Europea – Luxembourg Branch",
+    "contact_id": "MLRO-BELUX-007",
+    "subjects": [
+      {
+        "type": "Individual",
+        "name": "Raoul Bianci",
+        "dob": "1990-06-12",
+        "pob": "Naples, Italy",
+        "nationality": "Italian",
+        "passport": "IT3939902",
+        "passport_expiry": "2029",
+        "occupation": "Car Dealer"
+      }
+    ],
+    "transactions": [
+      {"date": "2022-12-15", "type": "Cash Deposit", "amount": 9500, "currency": "EUR", "origin": "Luxembourg"},
+      {"date": "2022-12-20", "type": "Cash Deposit", "amount": 9700, "currency": "EUR", "origin": "Luxembourg"},
+      {"date": "2022-12-22", "type": "Transfer", "amount": 18000, "currency": "EUR", "destination": "Italy"}
+    ],
+    "background": "Frequent cash deposits below EUR 10,000 within short intervals. Customer states funds come from used car sales but provided no invoices or proof of business activity.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "Client insists business is cash-based and unregistered.",
+    "internal_ref": "BELUX-RBIANCI-23",
+    "expected_decision": ["Forward to Law Enforcement"],
+    "dissemination_country": null,
+    "red_flags": [
+      "Structuring",
+      "Unregistered business",
+      "Lack of documentation"
+    ]
+  },
+  {
+    "id": "SAR-LU-2023-008",
+    "submission_date": "2023-09-30",
+    "reporting_entity": "Global Capital Markets (Lux) S.A.",
+    "contact_id": "MLRO-GCM-008",
+    "subjects": [
+      {
+        "type": "Individual",
+        "name": "Fiona Müller",
+        "dob": "1986-12-23",
+        "pob": "Zurich, Switzerland",
+        "nationality": "Swiss",
+        "passport": "CH224558",
+        "passport_expiry": "2032",
+        "occupation": "Hedge Fund Analyst"
+      }
+    ],
+    "transactions": [],
+    "background": "Client was flagged during a periodic screening due to a partial name match with a person sanctioned under a UN travel ban. Date of birth differed by five years. No actual transactions occurred since onboarding. SAR submitted for precaution.",
+    "additional_info_request": "Not applicable",
+    "additional_info_response": "N/A",
+    "internal_ref": "GCM-MULLER-23",
+    "expected_decision": ["Close Case"],
+    "dissemination_country": null,
+    "red_flags": []
+  },
+  {
+    "id": "SAR-LU-2023-009",
+    "submission_date": "2023-07-14",
+    "reporting_entity": "TrustBank Private – Luxembourg",
+    "contact_id": "MLRO-TBPRV-009",
+    "subjects": [
+      {
+        "type": "Individual",
+        "name": "Fatimah Al-Sabah",
+        "dob": "1973-05-30",
+        "pob": "Kuwait City, Kuwait",
+        "nationality": "Kuwaiti",
+        "passport": "KW884421",
+        "passport_expiry": "2027",
+        "occupation": "Oil Sector Executive"
+      }
+    ],
+    "transactions": [
+      {"date": "2023-06-20", "type": "Wire Transfer", "amount": 650000, "currency": "USD", "destination": "UAE"},
+      {"date": "2023-06-28", "type": "Wire Transfer", "amount": 700000, "currency": "USD", "destination": "UAE"}
+    ],
+    "background": "Transfers to a UAE holding company associated with controversial oil infrastructure deals. Client claims commercial property investments, but no contracts or proof of beneficial ownership provided. UAE company is recently incorporated.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "Client refers to confidentiality clauses, declines to provide.",
+    "internal_ref": "TBPRV-FALSBH-23",
+    "expected_decision": ["Dissemination Abroad"],
+    "dissemination_country": "United Arab Emirates",
+    "red_flags": [
+      "Large international transfers",
+      "Use of new shell entity",
+      "Opaque structure",
+      "High-risk jurisdiction"
+    ]
+  },
+  {
+    "id": "SAR-LU-2023-010",
+    "submission_date": "2023-03-07",
+    "reporting_entity": "LuxTrade Platform S.A.",
+    "contact_id": "MLRO-LUXT-010",
+    "subjects": [
+      {
+        "type": "Individual",
+        "name": "Kevin Mendis",
+        "dob": "1993-09-14",
+        "pob": "Colombo, Sri Lanka",
+        "nationality": "Sri Lankan",
+        "passport": "LK4488012",
+        "passport_expiry": "2026",
+        "occupation": "Freelancer"
+      }
+    ],
+    "transactions": [
+      {"date": "2023-02-12", "type": "Crypto In", "amount": 15000, "currency": "USDT", "origin": "India"},
+      {"date": "2023-02-13", "type": "Crypto Out", "amount": 14800, "currency": "BTC", "destination": "Unknown Wallet"}
+    ],
+    "background": "Client created an account and performed immediate crypto conversions to an external BTC address flagged on Chainalysis. Claimed earnings from online gigs in India, but IP logs show mixed geolocation.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "User did not respond.",
+    "internal_ref": "LUXT-MENDIS-23",
+    "expected_decision": ["Forward to Law Enforcement"],
+    "dissemination_country": null,
+    "red_flags": [
+      "Crypto to flagged wallet",
+      "No business justification",
+      "Inconsistent geolocation"
+    ]
+  }
+]
+[
+  {
+    "id": "SAR-LU-2023-016",
+    "submission_date": "2023-09-17",
+    "reporting_entity": "Helios Global Fund S.A.",
+    "contact_id": "MLRO-HELIOS-016",
+    "subjects": [
+      {
+        "type": "Entity",
+        "name": "SanBer Holdings Ltd",
+        "incorporation_country": "British Virgin Islands",
+        "representative": "Carlos Mendes",
+        "dob": "1978-01-10",
+        "nationality": "Portuguese",
+        "passport": "PT8374629",
+        "passport_expiry": "2029"
+      }
+    ],
+    "transactions": [
+      {"date": "2023-08-01", "type": "Subscription", "amount": 750000, "currency": "USD", "origin": "Panama"},
+      {"date": "2023-08-28", "type": "Redemption", "amount": 740000, "currency": "USD", "destination": "Uruguay"}
+    ],
+    "background": "Entity subscribed from Panama and redeemed to Uruguay within 30 days. Onboarding was performed via introducer. Ultimate Beneficial Owner (UBO) not fully verified. Client was not responsive to clarification requests.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "UBO structure is confidential under Panamanian law.",
+    "internal_ref": "HELIOS-SANBER-23",
+    "expected_decision": ["Forward to Law Enforcement", "Dissemination Abroad"],
+    "dissemination_country": "Uruguay",
+    "red_flags": [
+      "Short holding period",
+      "Offshore jurisdictions",
+      "Lack of UBO transparency",
+      "Uncooperative client"
+    ]
+  },
+  {
+    "id": "SAR-LU-2023-017",
+    "submission_date": "2023-04-08",
+    "reporting_entity": "Banque du Nord – Luxembourg",
+    "contact_id": "MLRO-BDN-017",
+    "subjects": [
+      {
+        "type": "Individual",
+        "name": "Tomislav Juric",
+        "dob": "1991-05-22",
+        "pob": "Zagreb, Croatia",
+        "nationality": "Croatian",
+        "passport": "HR1234091",
+        "passport_expiry": "2029",
+        "occupation": "Unknown"
+      }
+    ],
+    "transactions": [
+      {"date": "2023-03-12", "type": "Incoming Transfer", "amount": 9200, "currency": "EUR", "origin": "Bosnia"},
+      {"date": "2023-03-14", "type": "ATM Withdrawals", "amount": 9000, "currency": "EUR", "destination": "Luxembourg"}
+    ],
+    "background": "Funds transferred from Bosnia with non-standard reference text. Rapid withdrawals. Client listed no occupation. Interaction with staff was evasive. Suspected smurfing linked to human trafficking network under investigation in Croatia.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "Client unavailable; left the country.",
+    "internal_ref": "BDN-JURIC-23",
+    "expected_decision": ["Forward to Law Enforcement"],
+    "dissemination_country": null,
+    "red_flags": [
+      "Cash-intensive activity",
+      "No declared occupation",
+      "Cross-border low-value flow",
+      "Possible trafficking link"
+    ]
+  },
+  {
+    "id": "SAR-LU-2023-018",
+    "submission_date": "2023-03-10",
+    "reporting_entity": "CrystoX Exchange S.A.",
+    "contact_id": "MLRO-CRYSTOX-018",
+    "subjects": [
+      {
+        "type": "Individual",
+        "name": "Natalie Brunner",
+        "dob": "1984-12-09",
+        "pob": "Vienna, Austria",
+        "nationality": "Austrian",
+        "passport": "AT0038573",
+        "passport_expiry": "2028",
+        "occupation": "Legal Assistant"
+      }
+    ],
+    "transactions": [
+      {"date": "2023-02-02", "type": "Crypto Buy", "amount": 12000, "currency": "USDT", "origin": "Austria"},
+      {"date": "2023-02-04", "type": "Crypto Sell", "amount": 11800, "currency": "XMR", "destination": "Self-custody wallet"}
+    ],
+    "background": "Client performed a buy/sell cycle involving Monero. The wallet address used has no known counterparty or identifiable usage. Client gave no rationale other than ‘private investments’. Risk due to privacy token and lack of audit trail.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "No further information provided.",
+    "internal_ref": "CRYSTOX-BRUNNER-23",
+    "expected_decision": ["Forward to Law Enforcement"],
+    "dissemination_country": null,
+    "red_flags": [
+      "Use of privacy coins",
+      "Lack of justification",
+      "Self-custody risk"
+    ]
+  },
+  {
+    "id": "SAR-LU-2023-019",
+    "submission_date": "2023-05-19",
+    "reporting_entity": "Sirius Wealth Advisors – Luxembourg",
+    "contact_id": "MLRO-SIRIUS-019",
+    "subjects": [
+      {
+        "type": "Entity",
+        "name": "NewMotion S.A.",
+        "incorporation_country": "Luxembourg",
+        "representative": "Pascal Schmitt",
+        "dob": "1966-03-19",
+        "nationality": "Luxembourgish",
+        "passport": "LU9941102",
+        "passport_expiry": "2031"
+      }
+    ],
+    "transactions": [],
+    "background": "SAR filed after suspicious communication: client referenced plans to structure an investment through 'multiple layers in Asia' to avoid tax visibility. No transactions occurred yet. Concern based on intent and pattern of behavior.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "Client confirmed intent to structure abroad but denied wrongdoing.",
+    "internal_ref": "SIRIUS-NEWMOTION-23",
+    "expected_decision": ["Forward to Law Enforcement"],
+    "dissemination_country": null,
+    "red_flags": [
+      "Tax evasion intent",
+      "Layering structure",
+      "Pre-transaction alert"
+    ]
+  },
+  {
+    "id": "SAR-LU-2023-020",
+    "submission_date": "2023-04-11",
+    "reporting_entity": "Banque de Confiance – Luxembourg",
+    "contact_id": "MLRO-BCL-020",
+    "subjects": [
+      {
+        "type": "Individual",
+        "name": "Ali Reza Shirazi",
+        "dob": "1980-02-10",
+        "pob": "Tehran, Iran",
+        "nationality": "Iranian",
+        "passport": "IR4483001",
+        "passport_expiry": "2025",
+        "occupation": "Consultant"
+      }
+    ],
+    "transactions": [],
+    "background": "Name screening alert triggered due to partial match with SDN List. Client denied any links with IRGC. Official documents show Iranian nationality and address. Relationship was terminated proactively. No actual transactions recorded.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "Client reiterated denial; relationship closed.",
+    "internal_ref": "BCL-SHIRAZI-23",
+    "expected_decision": ["Close Case"],
+    "dissemination_country": null,
+    "red_flags": []
+  }
+] [
+  {
+    "id": "SAR-LU-2023-021",
+    "submission_date": "2023-10-01",
+    "reporting_entity": "InvestNova Fund Services S.A.",
+    "contact_id": "MLRO-INVNOVA-021",
+    "subjects": [
+      {
+        "type": "Entity",
+        "name": "Gondwana Energy Ltd",
+        "incorporation_country": "Mauritius",
+        "representative": "Isaac Tembo",
+        "dob": "1972-06-11",
+        "nationality": "Kenyan",
+        "passport": "KE8384827",
+        "passport_expiry": "2027"
+      }
+    ],
+    "transactions": [
+      {"date": "2023-09-15", "type": "Subscription", "amount": 1200000, "currency": "USD", "origin": "Kenya"},
+      {"date": "2023-09-28", "type": "Redemption", "amount": 1180000, "currency": "USD", "destination": "UAE"}
+    ],
+    "background": "The investor redeemed shortly after subscribing. KYC documents indicate opaque ownership via Mauritius trust structure. Destination account in UAE under different entity name. MLRO suspects round-tripping.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "Entity refused to disclose final beneficiary.",
+    "internal_ref": "INVNOVA-GONDWANA-23",
+    "expected_decision": ["Forward to Law Enforcement", "Dissemination Abroad"],
+    "dissemination_country": "United Arab Emirates",
+    "red_flags": [
+      "Short holding period",
+      "Opaque structure",
+      "Destination mismatch",
+      "Round-tripping suspicion"
+    ]
+  },
+  {
+    "id": "SAR-LU-2023-022",
+    "submission_date": "2023-02-20",
+    "reporting_entity": "CryptoGate S.A.",
+    "contact_id": "MLRO-CRGATE-022",
+    "subjects": [
+      {
+        "type": "Individual",
+        "name": "Lukas Wirth",
+        "dob": "1996-11-12",
+        "pob": "Zürich, Switzerland",
+        "nationality": "Swiss",
+        "passport": "CH7001129",
+        "passport_expiry": "2029",
+        "occupation": "IT Consultant"
+      }
+    ],
+    "transactions": [
+      {"date": "2023-01-30", "type": "Crypto Buy", "amount": 15000, "currency": "BTC", "origin": "Switzerland"},
+      {"date": "2023-02-05", "type": "Transfer", "amount": 14900, "currency": "BTC", "destination": "Mixer service"}
+    ],
+    "background": "Funds purchased in BTC and immediately sent to crypto mixing service known for obfuscation. Client did not respond to inquiries. Activity consistent with previous STRs related to ransomware payments.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "No response.",
+    "internal_ref": "CRGATE-WIRTH-23",
+    "expected_decision": ["Forward to Law Enforcement"],
+    "dissemination_country": null,
+    "red_flags": [
+      "Use of mixer",
+      "Obfuscation of trail",
+      "Unresponsive client"
+    ]
+  },
+  {
+    "id": "SAR-LU-2023-023",
+    "submission_date": "2023-06-06",
+    "reporting_entity": "Banque Alliance Luxembourg",
+    "contact_id": "MLRO-BALUX-023",
+    "subjects": [
+      {
+        "type": "Individual",
+        "name": "Helena Varga",
+        "dob": "1993-04-27",
+        "pob": "Budapest, Hungary",
+        "nationality": "Hungarian",
+        "passport": "HU1109284",
+        "passport_expiry": "2027",
+        "occupation": "Real Estate Agent"
+      }
+    ],
+    "transactions": [
+      {"date": "2023-05-01", "type": "Incoming Transfer", "amount": 9800, "currency": "EUR", "origin": "Austria"},
+      {"date": "2023-05-02", "type": "Outgoing Transfer", "amount": 9700, "currency": "EUR", "destination": "Malta"}
+    ],
+    "background": "Transfers routed through client’s personal account in Luxembourg, then rapidly forwarded to a newly incorporated Maltese firm. The company has no digital footprint. The reason given was property reservation.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "Client provided PDF of property listing but no purchase contract.",
+    "internal_ref": "BALUX-VARGA-23",
+    "expected_decision": ["Forward to Law Enforcement"],
+    "dissemination_country": null,
+    "red_flags": [
+      "Shell company",
+      "No economic rationale",
+      "Rapid movement"
+    ]
+  },
+  {
+    "id": "SAR-LU-2023-024",
+    "submission_date": "2023-01-04",
+    "reporting_entity": "Veritas Fund Management",
+    "contact_id": "MLRO-VERITAS-024",
+    "subjects": [
+      {
+        "type": "Entity",
+        "name": "Equinox Strategies Inc.",
+        "incorporation_country": "Cayman Islands",
+        "representative": "Leonard Becker",
+        "dob": "1969-05-05",
+        "nationality": "German",
+        "passport": "DE8844551",
+        "passport_expiry": "2030"
+      }
+    ],
+    "transactions": [],
+    "background": "During periodic review, MLRO noted a redemption request was signed by an unrelated third-party individual based in Serbia. Fund rules prohibit third-party redemptions. No power of attorney was filed. Suspicion of identity misuse.",
+    "additional_info_request": "Requested",
+    "additional_info_response": "No response received. Redemption frozen.",
+    "internal_ref": "VERITAS-EQUINOX-23",
+    "expected_decision": ["Forward to Law Enforcement"],
+    "dissemination_country": null,
+    "red_flags": [
+      "Third-party redemption",
+      "Fund rules violation",
+      "Possible identity misuse"
+    ]
+  },
+  {
+    "id": "SAR-LU-2023-025",
+    "submission_date": "2023-08-14",
+    "reporting_entity": "Banque Européenne du Marché",
+    "contact_id": "MLRO-BEM-025",
+    "subjects": [
+      {
+        "type": "Individual",
+        "name": "Martin O’Connell",
+        "dob": "1983-11-03",
+        "pob": "Dublin, Ireland",
+        "nationality": "Irish",
+        "passport": "IE4455902",
+        "passport_expiry": "2027",
+        "occupation": "Software Developer"
+      }
+    ],
+    "transactions": [],
+    "background": "Name screening alert due to similarity with person on Europol watchlist. No direct match. Client has been with bank since 2017 with regular salary transactions. MLRO decided to file SAR based solely on name similarity.",
+    "additional_info_request": "Not requested",
+    "additional_info_response": "N/A",
+    "internal_ref": "BEM-OCONNELL-23",
+    "expected_decision": ["Close Case"],
+    "dissemination_country": null,
+    "red_flags": []
+  }
+]
