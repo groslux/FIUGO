@@ -52,7 +52,7 @@ def generate_certificate(name, decisions, red_flag_choices, missed_flags, sars, 
     pdf.cell(0, 10, f"Final Score: {correct} / {total} SARs correctly handled", ln=1)
 
     pdf.set_font("Arial", "", 11)
-    pdf.multi_cell(0, 7, "\n🎯 Recommendation: Review typologies on red flag identification and appropriate dissemination. Great effort! Stay sharp, officer.")
+    pdf.multi_cell(0, 7, "\nRecommendation: Review typologies on red flag identification and appropriate dissemination. Great effort! Stay sharp, officer.")
 
     output_path = f"/mnt/data/AML_Certificate_{name.replace(' ', '_')}.pdf"
     pdf.output(output_path)
