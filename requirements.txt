@@ -1,5 +1,5 @@
 streamlit
-networkx
 fpdf
-matplotlib
-faker
+fuzzywuzzy
+python-Levenshtein
+networkx
