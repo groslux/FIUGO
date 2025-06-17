@@ -94,7 +94,7 @@
   {
     "id": "SAR-LU-2023-001",
     "submission_date": "2023-06-18",
-    "reporting_entity": "Société Générale Bank & Trust – Luxembourg",
+    "reporting_entity": "SociÃ©tÃ© GÃ©nÃ©rale Bank & Trust â€“ Luxembourg",
     "contact_id": "MLRO-SGBT-LU001",
     "subjects": [
       {
@@ -126,7 +126,7 @@
   {
     "id": "SAR-LU-2023-002",
     "submission_date": "2023-08-22",
-    "reporting_entity": "Finvault Crypto S.A. – Luxembourg",
+    "reporting_entity": "Finvault Crypto S.A. â€“ Luxembourg",
     "contact_id": "MLRO-FVLT-002",
     "subjects": [
       {
@@ -160,7 +160,7 @@
   {
     "id": "SAR-LU-2023-003",
     "submission_date": "2023-05-12",
-    "reporting_entity": "AssetBridge Fund Services – Luxembourg",
+    "reporting_entity": "AssetBridge Fund Services â€“ Luxembourg",
     "contact_id": "MLRO-ABF-003",
     "subjects": [
       {
@@ -194,7 +194,7 @@
   {
     "id": "SAR-LU-2023-004",
     "submission_date": "2023-04-14",
-    "reporting_entity": "Tradex Wealth – Luxembourg",
+    "reporting_entity": "Tradex Wealth â€“ Luxembourg",
     "contact_id": "MLRO-TWX-004",
     "subjects": [
       {
@@ -218,12 +218,12 @@
     "internal_ref": "TWX-KLEIN-23",
     "expected_decision": ["Close Case"],
     "dissemination_country": null,
-    "red_flags": []
+    "red_flags": ,
   },
   {
     "id": "SAR-LU-2023-005",
     "submission_date": "2023-03-01",
-    "reporting_entity": "TrustBank Private – Luxembourg",
+    "reporting_entity": "TrustBank Private â€“ Luxembourg",
     "contact_id": "MLRO-TBPRV-005",
     "subjects": [
       {
@@ -292,7 +292,7 @@
   {
     "id": "SAR-LU-2023-007",
     "submission_date": "2023-01-11",
-    "reporting_entity": "Banca Europea – Luxembourg Branch",
+    "reporting_entity": "Banca Europea â€“ Luxembourg Branch",
     "contact_id": "MLRO-BELUX-007",
     "subjects": [
       {
@@ -331,7 +331,7 @@
     "subjects": [
       {
         "type": "Individual",
-        "name": "Fiona Müller",
+        "name": "Fiona MÃ¼ller",
         "dob": "1986-12-23",
         "pob": "Zurich, Switzerland",
         "nationality": "Swiss",
@@ -340,19 +340,19 @@
         "occupation": "Hedge Fund Analyst"
       }
     ],
-    "transactions": [],
+    "transactions": ,,
     "background": "Client was flagged during a periodic screening due to a partial name match with a person sanctioned under a UN travel ban. Date of birth differed by five years. No actual transactions occurred since onboarding. SAR submitted for precaution.",
     "additional_info_request": "Not applicable",
     "additional_info_response": "N/A",
     "internal_ref": "GCM-MULLER-23",
     "expected_decision": ["Close Case"],
     "dissemination_country": null,
-    "red_flags": []
+    "red_flags": ,
   },
   {
     "id": "SAR-LU-2023-009",
     "submission_date": "2023-07-14",
-    "reporting_entity": "TrustBank Private – Luxembourg",
+    "reporting_entity": "TrustBank Private â€“ Luxembourg",
     "contact_id": "MLRO-TBPRV-009",
     "subjects": [
       {
@@ -455,7 +455,7 @@
   {
     "id": "SAR-LU-2023-007",
     "submission_date": "2023-01-11",
-    "reporting_entity": "Banca Europea – Luxembourg Branch",
+    "reporting_entity": "Banca Europea â€“ Luxembourg Branch",
     "contact_id": "MLRO-BELUX-007",
     "subjects": [
       {
@@ -494,7 +494,7 @@
     "subjects": [
       {
         "type": "Individual",
-        "name": "Fiona Müller",
+        "name": "Fiona MÃ¼ller",
         "dob": "1986-12-23",
         "pob": "Zurich, Switzerland",
         "nationality": "Swiss",
@@ -503,19 +503,19 @@
         "occupation": "Hedge Fund Analyst"
       }
     ],
-    "transactions": [],
+    "transactions": ,,
     "background": "Client was flagged during a periodic screening due to a partial name match with a person sanctioned under a UN travel ban. Date of birth differed by five years. No actual transactions occurred since onboarding. SAR submitted for precaution.",
     "additional_info_request": "Not applicable",
     "additional_info_response": "N/A",
     "internal_ref": "GCM-MULLER-23",
     "expected_decision": ["Close Case"],
     "dissemination_country": null,
-    "red_flags": []
+    "red_flags": ,
   },
   {
     "id": "SAR-LU-2023-009",
     "submission_date": "2023-07-14",
-    "reporting_entity": "TrustBank Private – Luxembourg",
+    "reporting_entity": "TrustBank Private â€“ Luxembourg",
     "contact_id": "MLRO-TBPRV-009",
     "subjects": [
       {
@@ -618,7 +618,7 @@
   {
     "id": "SAR-LU-2023-017",
     "submission_date": "2023-04-08",
-    "reporting_entity": "Banque du Nord – Luxembourg",
+    "reporting_entity": "Banque du Nord â€“ Luxembourg",
     "contact_id": "MLRO-BDN-017",
     "subjects": [
       {
@@ -670,7 +670,7 @@
       {"date": "2023-02-02", "type": "Crypto Buy", "amount": 12000, "currency": "USDT", "origin": "Austria"},
       {"date": "2023-02-04", "type": "Crypto Sell", "amount": 11800, "currency": "XMR", "destination": "Self-custody wallet"}
     ],
-    "background": "Client performed a buy/sell cycle involving Monero. The wallet address used has no known counterparty or identifiable usage. Client gave no rationale other than ‘private investments’. Risk due to privacy token and lack of audit trail.",
+    "background": "Client performed a buy/sell cycle involving Monero. The wallet address used has no known counterparty or identifiable usage. Client gave no rationale other than â€˜private investmentsâ€™. Risk due to privacy token and lack of audit trail.",
     "additional_info_request": "Requested",
     "additional_info_response": "No further information provided.",
     "internal_ref": "CRYSTOX-BRUNNER-23",
@@ -685,7 +685,7 @@
   {
     "id": "SAR-LU-2023-019",
     "submission_date": "2023-05-19",
-    "reporting_entity": "Sirius Wealth Advisors – Luxembourg",
+    "reporting_entity": "Sirius Wealth Advisors â€“ Luxembourg",
     "contact_id": "MLRO-SIRIUS-019",
     "subjects": [
       {
@@ -699,7 +699,7 @@
         "passport_expiry": "2031"
       }
     ],
-    "transactions": [],
+    "transactions": ,,
     "background": "SAR filed after suspicious communication: client referenced plans to structure an investment through 'multiple layers in Asia' to avoid tax visibility. No transactions occurred yet. Concern based on intent and pattern of behavior.",
     "additional_info_request": "Requested",
     "additional_info_response": "Client confirmed intent to structure abroad but denied wrongdoing.",
@@ -715,7 +715,7 @@
   {
     "id": "SAR-LU-2023-020",
     "submission_date": "2023-04-11",
-    "reporting_entity": "Banque de Confiance – Luxembourg",
+    "reporting_entity": "Banque de Confiance â€“ Luxembourg",
     "contact_id": "MLRO-BCL-020",
     "subjects": [
       {
@@ -729,14 +729,14 @@
         "occupation": "Consultant"
       }
     ],
-    "transactions": [],
+    "transactions": ,,
     "background": "Name screening alert triggered due to partial match with SDN List. Client denied any links with IRGC. Official documents show Iranian nationality and address. Relationship was terminated proactively. No actual transactions recorded.",
     "additional_info_request": "Requested",
     "additional_info_response": "Client reiterated denial; relationship closed.",
     "internal_ref": "BCL-SHIRAZI-23",
     "expected_decision": ["Close Case"],
     "dissemination_country": null,
-    "red_flags": []
+    "red_flags": ,
   }
 ] [
   {
@@ -783,7 +783,7 @@
         "type": "Individual",
         "name": "Lukas Wirth",
         "dob": "1996-11-12",
-        "pob": "Zürich, Switzerland",
+        "pob": "ZÃ¼rich, Switzerland",
         "nationality": "Swiss",
         "passport": "CH7001129",
         "passport_expiry": "2029",
@@ -827,7 +827,7 @@
       {"date": "2023-05-01", "type": "Incoming Transfer", "amount": 9800, "currency": "EUR", "origin": "Austria"},
       {"date": "2023-05-02", "type": "Outgoing Transfer", "amount": 9700, "currency": "EUR", "destination": "Malta"}
     ],
-    "background": "Transfers routed through client’s personal account in Luxembourg, then rapidly forwarded to a newly incorporated Maltese firm. The company has no digital footprint. The reason given was property reservation.",
+    "background": "Transfers routed through clientâ€™s personal account in Luxembourg, then rapidly forwarded to a newly incorporated Maltese firm. The company has no digital footprint. The reason given was property reservation.",
     "additional_info_request": "Requested",
     "additional_info_response": "Client provided PDF of property listing but no purchase contract.",
     "internal_ref": "BALUX-VARGA-23",
@@ -856,7 +856,7 @@
         "passport_expiry": "2030"
       }
     ],
-    "transactions": [],
+    "transactions": ,,
     "background": "During periodic review, MLRO noted a redemption request was signed by an unrelated third-party individual based in Serbia. Fund rules prohibit third-party redemptions. No power of attorney was filed. Suspicion of identity misuse.",
     "additional_info_request": "Requested",
     "additional_info_response": "No response received. Redemption frozen.",
@@ -872,12 +872,12 @@
   {
     "id": "SAR-LU-2023-025",
     "submission_date": "2023-08-14",
-    "reporting_entity": "Banque Européenne du Marché",
+    "reporting_entity": "Banque EuropÃ©enne du MarchÃ©",
     "contact_id": "MLRO-BEM-025",
     "subjects": [
       {
         "type": "Individual",
-        "name": "Martin O’Connell",
+        "name": "Martin Oâ€™Connell",
         "dob": "1983-11-03",
         "pob": "Dublin, Ireland",
         "nationality": "Irish",
@@ -886,13 +886,13 @@
         "occupation": "Software Developer"
       }
     ],
-    "transactions": [],
+    "transactions": ,,
     "background": "Name screening alert due to similarity with person on Europol watchlist. No direct match. Client has been with bank since 2017 with regular salary transactions. MLRO decided to file SAR based solely on name similarity.",
     "additional_info_request": "Not requested",
     "additional_info_response": "N/A",
     "internal_ref": "BEM-OCONNELL-23",
     "expected_decision": ["Close Case"],
     "dissemination_country": null,
-    "red_flags": []
+    "red_flags": ,
   }
 ]
