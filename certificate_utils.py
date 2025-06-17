@@ -1,5 +1,6 @@
 from fpdf import FPDF
 from datetime import datetime
+from fuzzywuzzy import fuzz
 
 def generate_certificate(name, decisions, red_flag_choices, missed_flags, sars, time_taken):
     pdf = FPDF()
@@ -29,7 +30,6 @@ def generate_certificate(name, decisions, red_flag_choices, missed_flags, sars, 
 
         if decision == "Dissemination Abroad" and "Dissemination Abroad" in expected:
             expected_country = sar.get("dissemination_country", "").lower()
-            from fuzzywuzzy import fuzz
             score = fuzz.partial_ratio(expected_country, country.lower()) if country else 0
             correct_decision = score >= 85
 
@@ -54,6 +54,6 @@ def generate_certificate(name, decisions, red_flag_choices, missed_flags, sars, 
     pdf.set_font("Arial", "", 11)
     pdf.multi_cell(0, 7, "\nRecommendation: Review typologies on red flag identification and appropriate dissemination. Great effort! Stay sharp, officer.")
 
-    output_path = f"/mnt/data/AML_Certificate_{name.replace(' ', '_')}.pdf"
+    output_path = f"AML_Certificate_{name.replace(' ', '_')}.pdf"
     pdf.output(output_path)
     return output_path
